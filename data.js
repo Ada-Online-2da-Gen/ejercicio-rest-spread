@@ -13,7 +13,7 @@ const getBulbasaur = () => ({
   },
   moves: ['Growl', 'Tackle', 'Vine Whip', 'Razor Leaf'],
   modifiers: {
-    weakness: ['fire, ice', 'flying', 'psychic'],
+    weakness: ['fire', 'ice', 'flying', 'psychic'],
     resistances: ['water', 'grass', 'electric', 'fighter']
   }
 })
@@ -33,7 +33,7 @@ const getCharmander = () => ({
   },
   moves: ['Growl', 'Scratch', 'Flamethrower', 'Dragon Breath'],
   modifiers: {
-    weakness: ['water, ground', 'rock'],
+    weakness: ['water', 'ground', 'rock'],
     resistances: ['fire', 'ice', 'grass', 'steal']
   }
 })
@@ -53,7 +53,7 @@ const getSquirtle = () => ({
   },
   moves: ['Tackle', 'Tail Whip', 'Water Gun', 'Hydro Pump'],
   modifiers: {
-    weakness: ['electric, grass'],
+    weakness: ['electric', 'grass'],
     resistances: ['water', 'fire', 'ice', 'steel']
   }
 })
